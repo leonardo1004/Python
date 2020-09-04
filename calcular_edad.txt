@@ -8,6 +8,8 @@ print("")
 if anio_actual and edad>0:
     if anio_actual<=anio_tope:
         edad_2=anio_tope-anio_actual
+	edad_final=edad+edad_2
+        print("Su edad en el año 2070 sera: ", edad_final)
     else:
         print("El año actual ingresado es mayor 2070")
 else: 
