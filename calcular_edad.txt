@@ -5,3 +5,7 @@ anio_tope=2070
 edad=int(input("Ingrese su edad: "))
 anio_actual=int(input("Ingrese el año actual: "))
 print("")
+if anio_actual and edad>0:
+    print(edad, anio_actual)
+else: 
+    print("Error los numeros deben ser mayores a 0")
