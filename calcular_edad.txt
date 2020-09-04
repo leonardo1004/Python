@@ -6,6 +6,9 @@ edad=int(input("Ingrese su edad: "))
 anio_actual=int(input("Ingrese el año actual: "))
 print("")
 if anio_actual and edad>0:
-    print(edad, anio_actual)
+    if anio_actual<=anio_tope:
+        edad_2=anio_tope-anio_actual
+    else:
+        print("El año actual ingresado es mayor 2070")
 else: 
     print("Error los numeros deben ser mayores a 0")
