@@ -1,0 +1,2 @@
+print("          ----Bienvenido----")
+print("------Calcula tu edad en el 2070---------")
