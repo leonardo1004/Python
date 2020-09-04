@@ -2,3 +2,6 @@ import time
 print("          ----Bienvenido----")
 print("------Calcula tu edad en el 2070---------")
 anio_tope=2070
+edad=int(input("Ingrese su edad: "))
+anio_actual=int(input("Ingrese el año actual: "))
+print("")
