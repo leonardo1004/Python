@@ -10,4 +10,5 @@ palabra= input("Ingrese una palabra: ")
 primer_caracter = palabra[0]
 print("El primer caracter es: ", primer_caracter)  
 ultimo_caracter=palabra[len(palabra)-1]
-print("El primer caracter es: ", ultimo_caracter) 
+print("El primer caracter es: ", ultimo_caracter)
+print("El tamaño es: ", len(palabra)) 
