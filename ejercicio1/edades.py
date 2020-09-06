@@ -4,9 +4,10 @@ Editor de Spyder
 
 Este es un archivo temporal.
 """
-import time
+
 
 def calcular_edad(edad, anio_actual):
+    import time
     print("          ----Bienvenido----")
     print("------Calcula tu edad en el 2070---------")
     anio_tope=2070
